@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px">
+        <tr>
+            <th align="center" colspan="2">Pizza Shop 2.0</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th align="left">
+                <input type="text" name="name" id="name">
+            </th>
+        </tr>
+        <tr>
+            <th>Pizza Topping</th>
+            <th>
+                <form align="left">
+                <input type="radio">
+                Supreme
+                <br>
+                <input type="radio">
+                Hawaiian
+                <br>
+                <input type="radio">
+                Meat Lovers
+                </form>
+        </tr>
+        <tr>
+            <th>Pizza Sauce</th>
+            <td colspan="2">
+                <label for="Tomato"></label>
+                <select name="Tomato" id="Tomato">
+                    <option value="Tomato">Tomato</option>
+                    <option value="BBQ">BBQ</option>
+                    <option value="Pesto">Pesto</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Optional Extras</th>
+            <th>
+                <form>
+                    <input type="checkbox">
+                    Extra Cheese
+                    <input type="checkbox">
+                    Gluten Free Base
+                </form>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2" align="left">Delivery Instructions</th>
+        </tr>
+        <tr>
+            <th colspan="2" align="left"><textarea name="instructions" id="instructions"></textarea></th>
+        </tr>
+        <tr>
+            <th colspan="2" align="left">
+             <input type="submit" value="Send my Order">
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
