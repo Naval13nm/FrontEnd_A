@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    .nav{
+        display: flex;
+        background-color: black;
+        height: 60px;
+        justify-content: space-between;
+    }
+    .logo{
+        /* background-color: yellow; */
+        height: 60px;
+        width: 7rem;
+        padding: 12px;
+    }
+    .nav-items{
+        /* background-color: orange; */
+        height: 60px;
+        width: 10rem;
+    }
+    .logo h1{
+        color: white;
+        text-align: center;
+    }
+    .nav-items ul{
+       display: flex;
+       justify-content: space-evenly;
+       height: 50px;
+       align-items: center;
+       padding: 0%;
+       margin: 0;
+
+    }
+    .nav-items ul li{
+        color: white;
+        list-style: none; /*  to remove the dot which comes from list */
+        font-size:20px;
+    }
+</style>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h1>pogo</h1>
+        </div>
+        <div class="nav-items">
+            <ul class="nav-items-ul">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <input type="search" placeholder="search">
+        </div>
+    </div>
+</body>
+</html>

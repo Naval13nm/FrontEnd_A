@@ -1,0 +1,97 @@
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/965/779/non_2x/empty-top-wooden-table-and-sakura-flower-with-fog-and-morning-light-background-photo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: space-between;
+    padding: 0;
+    top: 0;
+
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 10px; */
+    background-color: black;
+    padding: 0;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+     left: 0;
+    width: 100%;
+    z-index: 1000; 
+
+}
+.logo{
+    color: white;
+    padding: 8px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.nav-items a{
+    color: rgb(16, 156, 167);
+    text-decoration: none;
+    padding: 5rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+label{
+    color: rgb(16, 156, 167);
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-items a:hover {
+    color: white;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.logo:hover {
+    color: rgb(16, 156, 167);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.box1, .box2, .box3 {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border: 2px solid black;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    top: 20px;
+}
+
+.box1:hover, .box2:hover, .box3:hover {
+    background-color: rgba(161, 145, 225, 0.9);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.box1{
+    background-image: url('https://cdn.pixabay.com/photo/2024/07/13/07/40/cars-8891625_640.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.box2{
+    background-image: url('https://blog.remove-bg.ai/wp-content/uploads/2024/03/background-car-editing-photo.png');
+    background-size: cover;
+    background-position: center;
+}
+.box3{
+    background-image: url('https://t3.ftcdn.net/jpg/07/71/74/32/360_F_771743298_pdwE9BvWYAs2GzPuqbjH6pAyVlKK46aT.jpg');
+    background-size: cover;
+    background-position: center;
+}
