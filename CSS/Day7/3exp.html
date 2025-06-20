@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Three Boxes Animation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom animations */
+    @keyframes slideFromLeft {
+      0% { transform: translateX(-100%); opacity: 0; }
+      100% { transform: translateX(0); opacity: 1; }
+    }
+
+    @keyframes slideFromTop {
+      0% { transform: translateY(-100%); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes slideFromBottom {
+      0% { transform: translateY(100%); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+
+    .animate-left {
+      animation: slideFromLeft 1s ease-out forwards;
+    }
+
+    .animate-top {
+      animation: slideFromTop 1s ease-out forwards;
+    }
+
+    .animate-bottom {
+      animation: slideFromBottom 1s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="h-screen bg-gray-100 flex items-center justify-center relative overflow-hidden">
+
+  <div class="w-full h-full relative">
+    
+    <!-- Box 1 (from left) -->
+    <div class="w-32 h-32 bg-red-500 absolute top-1/2 left-0 transform -translate-y-1/2 animate-left">
+      <!-- Box 1 content -->
+    </div>
+
+    <!-- Box 2 (from top) -->
+    <div class="w-32 h-32 bg-green-500 absolute top-0 left-1/2 transform -translate-x-1/2 animate-top">
+      <!-- Box 2 content -->
+    </div>
+
+    <!-- Box 3 (from bottom) -->
+    <div class="w-32 h-32 bg-blue-500 absolute bottom-0 left-1/2 transform -translate-x-1/2 animate-bottom">
+      <!-- Box 3 content -->
+    </div>
+
+  </div>
+
+</body>
+</html>

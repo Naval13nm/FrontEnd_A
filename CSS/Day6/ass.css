@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/2162263367/photo/business-concepts-and-workspace-blurred-background-of-a-well-lit-modern-office-interior-with.jpg?s=2048x2048&w=is&k=20&c=oX_eUFe7CJinW05vF8Q3hW4lCr6nCoyECo0I9Be5cXY=");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+    white-space: nowrap;
+}
+
+.nav-items {
+    display: flex;
+    top: 0px;
+    font-weight: bold;
+
+    color: white;
+    font-size: 25px;
+    padding: 0;
+    margin-left: 120px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 25px;
+    padding: 0;
+    height: 50px;
+    width: 550px;
+
+}
