@@ -1,0 +1,49 @@
+object oriented programming 
+
+
+
+Global Scope
+vo scope jissko  pure programme context mai khi se bhee accesses kr skta h global scope mai variables  bhee ho skte h aur functions bhe ho skta h
+
+eg
+
+let global name= "naval"
+function great(){
+console.log("hello"+ globalName);
+}
+great();
+console.log(globalName);
+
+variables name is in global scope so can be accesses from anywhere
+var window object h window m bnao to , system ke andr vanila js kaam krte h udr oo system object h
+
+local scope those variables which can be accesses only inside the scope of a function or block ke andr m agr block ke andr kro to block scope 
+
+kissi varibale ka global hona na hona varibale ke declare ki jgh mai depend krta h var ya const mai depend nhi krta 
+
+phir var or let mai kya fark h globally
+  a) on the basis of vanila objects js  
+1 global object var  ke case m browser m exist krtaa h window object h let mai undefined krega
+  
+  b)on tje basis of node js
+1 sb mai undefined krega
+
+node js module based hota h  module ka mtb file hota h 
+
+3) lexical scope
+lexical scope ko static scope bhi kaha jata h
+mtb isske accessesiblity of varibales code ke structure ke basis pr hoti h na ki kha likha gya iss mai depend kregi 
+
+functions are scoped to where they are written in the source code not where they are called from 
+
+
+lexical scoping with closures is a way of doing data hiding showing only relevent important things know as data abstraction 
+
+flow of oops = abstraction,encapsulation,polymorphism,inheritance.
+
+
+
+
+direct accesses of count var(data member) is not alllowed in gec 
+ member function (inner function inside a outer parent function) needed for it.
+ 

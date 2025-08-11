@@ -1,3 +1,6 @@
-var a=7;
-console.log(a);
-console.log(typeof a);
+let x = 5;
+function scopeTest() {
+  console.log(x);
+  var x = 10;
+}
+scopeTest();
