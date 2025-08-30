@@ -5,5 +5,5 @@ const patients = [
   { id: 4, name: "Kavita", pendingBill: false }
 ];
 
-const pendingbill=patients.filter(x=>x.pendingBill);
+const pendingbill=patients.filter((x)=>x.pendingBill);
 console.log(pendingbill);

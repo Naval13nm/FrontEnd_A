@@ -26,7 +26,14 @@ const lectures = [
  { id: 5, topic: "Python", date: "2025-08-15" }
 ];
 
-const date= new Date("2025-06-01");
+const date= new Date();
 
 const ans = lectures.filter((x)=>new Date(x.date)>=date);
 console.log(ans);
+
+
+// What happens:
+                // You create a cutoff date (2025-06-01) as a Date object.
+                // For each lecture, new Date(x.date) converts its date string into a Date object.
+                // You compare the two Date objects using >=.
+                // The filter keeps only those lectures on or after June 1, 2025.

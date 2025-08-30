@@ -5,4 +5,5 @@ const lectures = [
   { id: 4, topic: "Node.js", date: "2025-04-30" }
 ];
 
-const ans=
+const ans=lectures.filter((lectures)=>lectures.date>"2025-04-30");
+console.log(ans);
